@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'K2Lin Docs',
+  tagline: 'K2Lin Teams的官方文档呀',
+  url: 'https://docs.k2lin.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -23,8 +23,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans', 'en'],
   },
 
   presets: [
@@ -57,22 +57,22 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'K2Lin Docs',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'K2Docs Logo',
+          src: 'img/KTT-Icon.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documents',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://k2lin.com/',
+            label: 'Main',
             position: 'right',
           },
         ],
@@ -84,16 +84,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'OurCraft Network',
+                to: '/docs/ourcraft/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'K2Lin Projects',
             items: [
               {
-                label: 'Stack Overflow',
+                label: '',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
@@ -107,20 +107,24 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: '开放的社区',
             items: [
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Discord',
+                href: 'https://k2l.in/dc',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/K2Lin-Daniel',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `K2Lin Tech Tips co.ltd ${new Date().getFullYear()} | All rights reserved. | Powered by Docusaurus`,
       },
       prism: {
         theme: lightCodeTheme,

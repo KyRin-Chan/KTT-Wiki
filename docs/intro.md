@@ -2,46 +2,12 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# K2Lin Docs 介绍
 
-Let's discover **Docusaurus in less than 5 minutes**.
+# K2Lin Docs：一个技术文档网站
 
-## Getting Started
+### 欢迎来到K2Lin Docs，一个现代化的基于Reactjs的轻量化文档网站，为K2Lin Tech Tips的用户提供了详细的技术指南和教程。
 
-Get started by **creating a new site**.
+在这里，你可以找到关于OurCraft——一个Minecraft游戏服务器的教程，以及其他方面的技术文档。OurCraft是一个具有专有的反作弊“棱镜系统”的低延迟服务器，有着完备的插件体验，并且有无Pay-2-Win保证。无论你是新手还是老手，你都可以在这里享受到Minecraft的乐趣。
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+K2Lin Docs的目标是帮助你更好地了解和使用K2Lin Tech Tips提供的各种项目和服务。我们希望你能在这里找到你需要的信息，并且有所收获。如果你有任何问题或建议，请随时联系本喵们。😊
