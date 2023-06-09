@@ -124,7 +124,7 @@ const config = {
             ],
           },
         ],
-        copyright: `K2Lin Tech Tips co.ltd ${new Date().getFullYear()} | All rights reserved. | Powered by Docusaurus`,
+        copyright: `K2Lin Teams ${new Date().getFullYear()} All rights reserved. `,
       },
       prism: {
         theme: lightCodeTheme,
