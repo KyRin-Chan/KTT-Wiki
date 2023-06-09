@@ -93,16 +93,20 @@ const config = {
             title: 'K2Lin Projects',
             items: [
               {
-                label: '',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'K2Lin Tech Tips',
+                href: 'https://k2lin.com',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Cloud Music',
+                href: 'https://music.k2lin.com',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'K2Chat',
+                href: 'https://chat.k2lin.com',
+              },
+              {
+                label: 'OurCraft Network',
+                href: 'https://ourcraft.cyou',
               },
             ],
           },
@@ -124,7 +128,7 @@ const config = {
             ],
           },
         ],
-        copyright: `K2Lin Teams ${new Date().getFullYear()} All rights reserved. `,
+        copyright: `K2Lin Tech Tips co.ltd ${new Date().getFullYear()} | All rights reserved. | Powered by Docusaurus`,
       },
       prism: {
         theme: lightCodeTheme,
