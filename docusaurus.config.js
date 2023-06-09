@@ -85,7 +85,7 @@ const config = {
             items: [
               {
                 label: 'OurCraft Network',
-                to: '/docs/ourcraft/intro',
+                to: '/docs/intro',
               },
             ],
           },
