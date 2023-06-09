@@ -128,7 +128,7 @@ const config = {
             ],
           },
         ],
-        copyright: `K2Lin Tech Tips co.ltd ${new Date().getFullYear()} | All rights reserved. | Powered by Docusaurus`,
+        copyright: `K2Lin Teams ${new Date().getFullYear()} | 保留所有权利. | 由文档龙强力驱动`,
       },
       prism: {
         theme: lightCodeTheme,
