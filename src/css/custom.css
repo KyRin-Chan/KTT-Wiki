@@ -19,11 +19,7 @@
   font-family: 'ZCOOL KuaiLe', sans-serif;
 }
 
-.markdown {
-  font-family: 'ZCOOL KuaiLe', sans-serif;
-}
-
-*:not(.fa){
+*:not(.fa):not(.markdown code){
   font-family: 'ZCOOL KuaiLe', sans-serif;
 }
 
