@@ -18,12 +18,12 @@
 }
 
 @font-face {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'ZCOOL KuaiLe', 'Comfortaa', sans-serif;
   src: local('ZCOOL KuaiLe'), url(https://kaltsit.ml/ZCOOLKuaiLe-Regular.ttf) format('truetype');
 }
 
 *:not(.fa):not(.markdown code){
-  font-family: 'ZCOOL KuaiLe', sans-serif;
+  font-family: 'ZCOOL KuaiLe', 'Comfortaa', sans-serif;
   src: local('ZCOOL KuaiLe'), url(https://kaltsit.ml/ZCOOLKuaiLe-Regular.ttf) format('truetype');
 }
 
