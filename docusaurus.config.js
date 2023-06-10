@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'K2Lin Docs',
-  tagline: 'K2Lin Teams的官方文档呀',
+  tagline: '凯琳的官方文档呀',
   url: 'https://docs.k2lin.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',

@@ -19,12 +19,10 @@
 
 @font-face {
   font-family: 'Comfortaa', 'ZCOOL KuaiLe', cursive;
-  src: local('ZCOOL KuaiLe'), url(https://kaltsit.ml/ZCOOLKuaiLe-Regular.ttf) format('truetype');
 }
 
 *:not(.fa):not(.markdown code){
   font-family: 'Comfortaa', 'ZCOOL KuaiLe', cursive;
-  src: local('ZCOOL KuaiLe'), url(https://kaltsit.ml/ZCOOLKuaiLe-Regular.ttf) format('truetype');
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
