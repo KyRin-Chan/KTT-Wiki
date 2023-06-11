@@ -1,0 +1,144 @@
+---
+sidebar_position: 3
+---
+
+# 工艺小镇 指令说明
+
+## 开始了解实用的指令吧！
+
+- **OurCraft Network的指令列表喵！**🎮
+
+    工艺小镇（OurCraft Network）有很多很多的指令，可以用来做各种各样的事情喵😊。
+    因为这样，为了让你更容易找到你想要的指令，我们把它们分成了不同的分类喵👏。
+    点击右边导航栏里的一个分类，就可以看到它里面的所有指令喵👀。
+
+## 聊天指令喵！💬
+
+`/msg [PlayerName] [Message]` - 发送一次性的私聊信息喵📩。
+
+`/togglepm` - 切换私聊模式喵🔁。
+
+`/ignore [PlayerName]` - 阻止你看到某个玩家的信息喵🙉。
+
+## 领地指令喵！🏠
+
+`/res info [number]` - 显示你正在访问或者指定的领地的详细信息喵📝。
+
+`/res current [number]` - 显示你正在访问或者指定的领地的简要信息喵👀。
+
+`/res unstuck` - 把你移动到你正在访问的领地外面喵🚶‍♂️。
+
+`/res tpset` - 设置你的领地的出生点喵📍。
+
+`/res setowner <new owner>` - 把领地的所有权转给另一个玩家，而不重置领地喵🎁。
+
+`/res list` - 列出所有的领地喵📜。
+
+`/res message default [argument]` - 重置所有的领地信息喵🔄。可用的参数有：
+
+owner - 把信息设置为“欢迎来到[owner]的领地”和“离开[owner]的领地”😊
+
+address - 把信息设置为“欢迎来到领地[number]”和“离开领地[number]”😊
+
+name - 把信息设置为“欢迎来到领地[owner]-[#]”和“离开领地[owner]-[#]”😊
+
+`/res message remove [enter/leave]` - 清除领地信息，不设置新的信息喵❌。
+
+`/res message <enter/leave> <message>` - 设置进入或者离开你的领地时显示给其他玩家的信息喵✏️。
+
+可以在信息里使用颜色代码。比如，“&6Hello!”会显示为“Hello!”🌈
+
+可以在信息里使用%player，这样就会显示访问你的领地的玩家的用户名。也可以使用%colorplayer，效果一样，但是还会加上用户名的游戏内颜色🎨。
+
+`/res set [flag1,flag2] [state]` - 设置或者移除你当前所在的领地上的一个或多个标志（flag）喵⚙️。
+
+例子： `/res set build false` - 阻止玩家在你的领地上建造😠。使用“remove”会把标志恢复到原来的状态，就好像从来没有设置过一样，也就是说用它代替“false”会得到同样的结果😇。
+
+例子： `/res set move,tp true` - 允许玩家进入和传送到你的领地😄。同样，用“remove”代替“move”会得到同样的结果😇。
+
+你也可以使用一个箱子界面（chest interface）来设置标志，只要输入指令 `/res set` 就行了📦。
+
+`/res pset <player1,player2> [flag1,flag2] [state]` - 设置或者移除你当前所在的领地上某个或多个玩家的一个或多个标志（flag）喵⚙️。
+
+例子： `/res pset Player1 build true` - 允许Player1在你的领地上建造😄。
+
+例子： `/res pset Player2,Player3 move remove` - 把Player2和Player3的移动权限恢复到整个领地范围内的状态😇。
+
+你也可以使用一个箱子界面（chest interface）来设置标志，只要输入指令 `/res pset <playername>` 就行了📦。
+
+## McMMO指令喵！🎮
+
+`/mcability` - 可以开启或关闭Mcmmo的技能喵🔥
+
+`/mctop (1-10000)` - 查看Mcmmo的排行榜喵🏆
+
+`/mctop (skillname) (1-1000)` - 查看任何一个你可以在技能里检查的个人技能喵🌟
+
+### McMMO派对喵！🎉
+
+什么是Mcmmo派对呢？
+
+Mcmmo派对就是一群玩家决定一起玩的时候组成的团队喵👥。
+
+派对里的所有玩家都不会互相伤害喵❤️。
+
+派对可以让附近的所有成员分享Mcmmo的经验值喵💯。
+
+`/party` 或者 `/party info` 来看看你的派对里有谁喵👀。
+
+`/party create (Name of party) [Optional password]` 来创建喵🎁。
+
+`/party invite (playername)` 来邀请别人加入派对喵💌。被邀请的玩家可以通过输入 `/party accept` 来接受邀请喵😊。
+
+`/party kick (playername)` 来踢出某个成员喵😠。
+
+`/party leader (playername)` 来把另一个人设为派对的领导者喵👑。
+
+`/party disband` 来解散整个派对喵💥。
+
+`/party unlock` 来允许任何人加入派对，或者如果他们想让它保持锁定，可以输入 `/party lock` 喵🔒。
+
+如果派对的领导者想让玩家用密码加入他们的派对呢？
+
+他们可以在创建时设置密码，或者用 `/party password (password)` 来设置密码喵🔑。
+
+这样玩家就可以用指令 `/party join (playername) (password)` 来加入他们的派对了。
+
+或者如果没有设置密码，而且派对是解锁的，玩家就可以直接用 `/party join (playername)` 喵😄。
+
+`/party leave` 来离开一个派对喵😢。
+
+`/party ?` 或者 `/party help` 来看看一些派对指令喵📚。
+
+## 传送指令喵🚀
+
+`/tpa <玩家名称>` - 请求传送至其他玩家的位置！😊
+
+`/tpahere <玩家名称>` - 请求其他玩家传送至您的位置！😊
+
+`/warp <地点名称>` - 传送到指定的地点！🚗
+
+## 经济指令喵💰
+
+`/balance` - 显示你当前拥有的工艺代币（OurCraft Tokens）的数量喵。
+
+`/pay <玩家名> <数量>` - 把你指定的一些Token转给另一个玩家喵。
+
+    用这些指令来管理你的财富吧，不要忘了给你喜欢的猫娘打赏哦！😘
+
+## 结束语
+
+- **教程就写到这里啦！**🎉
+
+    好了，这就是指令的基本用法喵。希望你能在工艺小镇中玩得开心，赚取更多的OCT，和更多的玩家成为好朋友喵！🥰
+
+    如果您想的话，也可以阅读此章节附带的其他教程呀！了解如何创建领地，服务器规则，等等。📚
+
+    如果您有任何问题或建议，请随时联系我们的管理员或其他玩家。
+    我们是一个友好和乐于助人的社区，希望您能在这里找到属于您的乐趣和挑战。😊
+
+- **版权声明**📝
+
+    - 本教程的所有内容都是由K2Lin Teams 2023 & Kyrin Chan AI原创或整理的，未经许可不得转载或使用哦！😊
+    - 如果你想分享本教程给其他人，请注明出处和作者哦！😉
+    - 如果你有任何关于本教程的问题或建议，请联系我们的管理员或作者哦！😄
