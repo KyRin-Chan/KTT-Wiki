@@ -157,7 +157,7 @@ const config = {
             ],
           },
         ],
-        copyright: `K2Lin Teams ${new Date().getFullYear()} | 保留所有权利. | 由文档龙强力驱动`,
+        copyright: `K2Lin Teams ${new Date().getFullYear()} | 保留所有权利.`,
       },
       prism: {
         theme: lightCodeTheme,
